@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrackInc</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="left-sroller">
+        <div class="img">
+            <i class="fa-solid fa-xmark xmark"></i>
+            <img src="./source/Logo.png">
+        </div>
+
+        <div class="m1">
+            <img src="./source/dashboard-on.png" class="p1">
+            <h3>Dashboard</h3>
+        </div>
+
+        <div class="m1">
+            <img src="./source/invoice-on.png" class="p1">
+            <h3>Invoice</h3>
+        </div>
+
+        <div class="m1">
+            <img src="./source/projects-on.png" class="p1">
+            <h3>Proposals</h3>
+        </div>
+
+        <div class="m1">
+            <img src="./source/services-on.png" class="p1">
+            <h3>Services</h3>
+        </div>
+
+        <div class="m1">
+            <img src="./source/transactions-on.png" class="p1">
+            <h3>Transactions</h3>
+        </div>
+
+        <div class="m1">
+            <img src="./source/projects-on.png" class="p1">
+            <h3>Projects</h3>
+        </div>
+
+        <div class="m1">
+            <img src="./source/customers-on.png" class="p1">
+            <h3>Customers</h3>
+        </div>
+
+        <div class="m1">
+            <img src="./source/settings-on.png" class="p1">
+            <h3>settings</h3>
+        </div>
+
+        <div class="m1">
+            <img src="./source/logout-on.png" class="p1">
+            <h3>Log out</h3>
+        </div>
+    </div>
+    <div class="section1">
+
+        <nav>
+            <div class="innerNavv">
+                <i class="fa-solid fa-bars iii"></i>
+                <h2><span>Hi,</span> <span>Welcome back</span> <span>Robert!</span></h2>
+            </div>
+            <div class="innerNav">
+                <div class="search-box">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <i class="fa-regular fa-bell bells"></i>
+                <img class="ell3" src="./source/Ellipse 3.png">
+            </div>
+        </nav>
+
+        <h1>Finance Overview</h1>
+
+        <div class="innerSection">
+            <div class="card1">
+                <h3>$ 2,77,120</h3>
+                <h4>Sales</h4>
+                <img src="./source/insights.png">
+            </div>
+
+            <div class="card1">
+                <h3>$ 60,100</h3>
+                <h4>Expense</h4>
+                <img src="./source/Expense.png" class="expense">
+            </div>
+
+            <div class="card1">
+                <h3>$ 57,230</h3>
+                <h4>Profit</h4>
+                <img src="./source/Profit.png" class="profit">
+            </div>
+
+            <div class="card1">
+                <h3>$ 1,60,124</h3>
+                <h4>Expense</h4>
+                <img src="./source/Income.png" class="income">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section2">
+        <!-- <div class="innerS1">
+            <h2>Current Projects</h2>
+            <button>Create</button>
+        </div> -->
+
+        <div class="table-container">
+            <h2><i>Current Projects</i></h2>
+            <a href="#" class="create-btn">Create</a>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Customer</th>
+                        <th>Sent Date</th>
+                        <th>Amount</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Travel app design</td>
+                        <td>Jacob Jones</td>
+                        <td>28 Oct 2022</td>
+                        <td>$240.90</td>
+                        <td><span class="status sent">SENT</span></td>
+                    </tr>
+                    <tr>
+                        <td>UX Research for Event management app</td>
+                        <td>Wade Warren</td>
+                        <td>18 Oct 2022</td>
+                        <td>$120.00</td>
+                        <td><span class="status draft">DRAFT</span></td>
+                    </tr>
+                    <tr>
+                        <td>Redesign - Food delivery app</td>
+                        <td>Annette Black</td>
+                        <td>15 Oct 2022</td>
+                        <td>$351.00</td>
+                        <td><span class="status paid">PAID</span></td>
+                    </tr>
+                    <tr>
+                        <td>Web App - Online Learning</td>
+                        <td>Cameron Williamson</td>
+                        <td>15 Oct 2022</td>
+                        <td>$240.90</td>
+                        <td><span class="status paid">PAID</span></td>
+                    </tr>
+                    <tr>
+                        <td>Railway web casestudy</td>
+                        <td>Robert Fox</td>
+                        <td>13 Oct 2022</td>
+                        <td>$153.00</td>
+                        <td><span class="status sent">SENT</span></td>
+                    </tr>
+                    <tr>
+                        <td>Responsive web design</td>
+                        <td>Floyd Miles</td>
+                        <td>06 Oct 2022</td>
+                        <td>$140.90</td>
+                        <td><span class="status rejected">REJECTED</span></td>
+                    </tr>
+                    <tr>
+                        <td>Music app design</td>
+                        <td>Theresa Webb</td>
+                        <td>04 Oct 2022</td>
+                        <td>$345.90</td>
+                        <td><span class="status draft">DRAFT</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+    </div>
+
+    <div class="events-container">
+        <h2><i>Events</i></h2>
+        <div class="events-list">
+            <!-- Event Items -->
+            <div class="event-item">
+                <img src="./source/Ellipse 45.png" alt="User">
+                <div class="event-details">
+                    <h4>Wade Warren</h4>
+                    <p><span>🎂 Birthday</span> • Today</p>
+                </div>
+                <button class="action-btn">Wish</button>
+            </div>
+            <div class="event-item">
+                <img src="./source/Ellipse 46.png" alt="User">
+                <div class="event-details">
+                    <h4>Wade Warren</h4>
+                    <p><span>🎉 Joining Us</span> • Today</p>
+                </div>
+                <button class="action-btn">Congratulations</button>
+            </div>
+            <div class="event-item">
+                <img src="./source/Ellipse 47.png" alt="User">
+                <div class="event-details">
+                    <h4>Wade Warren</h4>
+                    <p><span>💼 Work Anniversary</span> • 7 September, 2022</p>
+                </div>
+            </div>
+            <!-- Duplicate Items for Scroll Effect -->
+            <div class="event-item">
+                <img src="./source/Ellipse 45.png" alt="User">
+                <div class="event-details">
+                    <h4>Wade Warren</h4>
+                    <p><span>🎂 Birthday</span> • Today</p>
+                </div>
+                <button class="action-btn">Wish</button>
+            </div>
+            <div class="event-item">
+                <img src="./source/Ellipse 46.png" alt="User">
+                <div class="event-details">
+                    <h4>Wade Warren</h4>
+                    <p><span>🎉 Joining Us</span> • Today</p>
+                </div>
+                <button class="action-btn">Congratulations</button>
+            </div>
+            <div class="event-item">
+                <img src="./source/Ellipse 47.png" alt="User">
+                <div class="event-details">
+                    <h4>Wade Warren</h4>
+                    <p><span>💼 Work Anniversary</span> • 7 September, 2022</p>
+                </div>
+            </div>
+
+            <div class="event-item">
+                <img src="./source/Ellipse 45.png" alt="User">
+                <div class="event-details">
+                    <h4>Wade Warren</h4>
+                    <p><span>🎂 Birthday</span> • Today</p>
+                </div>
+                <button class="action-btn">Wish</button>
+            </div>
+            <div class="event-item">
+                <img src="./source/Ellipse 46.png" alt="User">
+                <div class="event-details">
+                    <h4>Wade Warren</h4>
+                    <p><span>🎉 Joining Us</span> • Today</p>
+                </div>
+                <button class="action-btn">Congratulations</button>
+            </div>
+            <div class="event-item">
+                <img src="./source/Ellipse 47.png" alt="User">
+                <div class="event-details">
+                    <h4>Wade Warren</h4>
+                    <p><span>💼 Work Anniversary</span> • 7 September, 2022</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
